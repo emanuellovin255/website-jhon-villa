@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://emanuellovin255.github.io/website-jhon-villa/sitemap.xml
