@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fontanero Urgente en Ciudad Real 24h | Fontanero Jhon Villa</title>
-  <meta name="description" content="Fontanero Jhon Villa: fontanería urgente 24 horas en Ciudad Real y todos sus pueblos, Castilla-La Mancha. Fugas, desatascos, termos, calderas y cualquier avería. Llama al 600 90 33 00.">
+  <meta name="description" content="Fontanero Jhon Villa: fontanería urgente 24 horas en Ciudad Real y provincia. Fugas, desatascos, termos, calderas y cualquier avería. Llama al 600 90 33 00.">
   <meta name="keywords" content="fontanero Ciudad Real, fontanero urgente, fontanero 24 horas, desatascos Ciudad Real, fugas de agua, Castilla-La Mancha">
   <meta property="og:title" content="Fontanero Jhon Villa | Urgencias 24h en Ciudad Real">
   <meta property="og:description" content="Resolvemos cualquier avería de fontanería en Ciudad Real y provincia. Llama al 600 90 33 00.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="img/foto-5.jpg">
+  <meta property="og:image" content="img/hero.jpg">
   <meta property="og:locale" content="es_ES">
-  <meta name="theme-color" content="#0B3D91">
+  <meta name="theme-color" content="#070B16">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=2">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=3">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Plumber",
     "name": "Fontanero Jhon Villa",
     "telephone": "+34600903300",
-    "image": "img/foto-5.jpg",
+    "image": "img/hero.jpg",
     "priceRange": "€€",
     "address": {
       "@type": "PostalAddress",
@@ -33,8 +33,7 @@
     },
     "areaServed": [
       {"@type": "City", "name": "Ciudad Real"},
-      {"@type": "AdministrativeArea", "name": "Provincia de Ciudad Real"},
-      {"@type": "AdministrativeArea", "name": "Castilla-La Mancha"}
+      {"@type": "AdministrativeArea", "name": "Provincia de Ciudad Real"}
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -44,30 +43,60 @@
     }
   }
   </script>
+  <script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+                 "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/" } }
+  </script>
 </head>
 <body>
+
+  <!-- ICONOS -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-euro" viewBox="0 0 24 24"><path d="M17 6.5A7 7 0 0 0 7.5 9M17 17.5A7 7 0 0 1 7.5 15M4 10h9M4 14h9"/></symbol>
+      <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></symbol>
+      <symbol id="i-pipe" viewBox="0 0 24 24"><path d="M3 7h8a3 3 0 0 1 3 3v11M3 11h6a1 1 0 0 1 1 1v9M3 5v8M12 21h4"/></symbol>
+      <symbol id="i-building" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1M10 21v-3h4v3"/></symbol>
+      <symbol id="i-filter" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9 14h6M10 17h4"/></symbol>
+      <symbol id="i-pump" viewBox="0 0 24 24"><circle cx="10" cy="13" r="6"/><circle cx="10" cy="13" r="2"/><path d="M16 13h5M10 7V3h6M3 21h14"/></symbol>
+      <symbol id="i-drain" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 9h8M7 12h10M8 15h8"/></symbol>
+      <symbol id="i-wall" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 10h18M3 14.5h18M9 5v5M15 10v4.5M9 14.5V19"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0zM12 9v4M12 17h.01"/></symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.7s7 7.3 7 12.3a7 7 0 0 1-14 0c0-5 7-12.3 7-12.3z"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+      <symbol id="i-wa" viewBox="0 0 32 32"><path stroke="none" fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.5 6.5 0 0 0 1.3 3.4 14.8 14.8 0 0 0 5.7 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.3z"/></symbol>
+    </defs>
+  </svg>
 
   <!-- CABECERA -->
   <header class="header" id="header">
     <div class="container header__inner">
       <a href="#inicio" class="logo">
-        <img src="img/favicon.svg" alt="" width="36" height="36">
-        <span>Fontanero <strong>Jhon Villa</strong></span>
+        <img src="img/favicon.svg" alt="" width="34" height="34">
+        <span>Jhon Villa <em>Fontanería</em></span>
       </a>
       <nav class="nav" id="nav">
         <a href="#servicios">Servicios</a>
         <a href="#nosotros">Por qué nosotros</a>
-        <a href="#galeria">Trabajos</a>
-        <a href="#zonas">Zonas</a>
+        <a href="#trabajos">Trabajos</a>
         <a href="#faq">FAQ</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <a href="tel:+34600903300" class="btn btn--red header__call">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+      <a href="tel:+34600903300" class="btn btn--primary btn--sm header__call">
+        <svg class="ico"><use href="#i-phone"/></svg>
         <span>600 90 33 00</span>
       </a>
       <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span><span></span>
+        <span></span><span></span>
       </button>
     </div>
   </header>
@@ -75,67 +104,50 @@
   <main>
     <!-- HERO -->
     <section class="hero" id="inicio">
-      <div class="hero__bg"><img src="img/foto-5.jpg" alt="Fontanero reparando tuberías" fetchpriority="high"></div>
+      <div class="hero__bg" aria-hidden="true">
+        <img src="img/hero.jpg" alt="" fetchpriority="high">
+      </div>
+      <div class="hero__grid" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__text">
-          <span class="badge"><span class="dot"></span> Disponible ahora · 24 horas</span>
-          <h1>Fontanero urgente en <span>Ciudad Real</span> 24h</h1>
-          <p class="hero__lead">Resolvemos <strong>cualquier avería</strong> de fontanería en Ciudad Real y todos sus pueblos. Llegamos rápido, trabajamos limpio y te damos el presupuesto antes de empezar.</p>
+          <span class="badge"><span class="pulse"></span> Disponibles ahora · Urgencias 24h</span>
+          <h1>Fontanería profesional en <span class="grad">Ciudad Real</span>, a cualquier hora.</h1>
+          <p class="hero__lead">Fugas, atascos, termos y calderas. Diagnóstico preciso, presupuesto cerrado antes de empezar y trabajo garantizado.</p>
           <div class="hero__cta">
-            <a href="tel:+34600903300" class="btn btn--red btn--lg">📞 Llamar: 600 90 33 00</a>
-            <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20necesito%20un%20fontanero" class="btn btn--wa btn--lg" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="tel:+34600903300" class="btn btn--primary btn--lg">
+              <svg class="ico"><use href="#i-phone"/></svg> Llamar 600 90 33 00
+            </a>
+            <a href="#contacto" class="btn btn--ghost btn--lg">
+              Solicitar presupuesto <svg class="ico"><use href="#i-arrow"/></svg>
+            </a>
           </div>
           <ul class="hero__points">
-            <li>✔ Servicio 24h, festivos incluidos</li>
-            <li>✔ Presupuesto sin compromiso</li>
-            <li>✔ Llegada rápida</li>
+            <li><svg class="ico"><use href="#i-check"/></svg> 24 h, festivos incluidos</li>
+            <li><svg class="ico"><use href="#i-check"/></svg> Presupuesto sin coste</li>
+            <li><svg class="ico"><use href="#i-check"/></svg> Garantía por escrito</li>
           </ul>
         </div>
-
-        <!-- FORMULARIO RÁPIDO -->
-        <form class="quick-form" id="contacto" novalidate>
-          <h2>🚨 Contacto rápido de urgencia</h2>
-          <p>Rellena el formulario y te respondemos al momento por WhatsApp.</p>
-          <label>Nombre
-            <input type="text" name="nombre" required placeholder="Tu nombre" autocomplete="name">
-          </label>
-          <label>Teléfono
-            <input type="tel" name="telefono" required placeholder="6XX XXX XXX" autocomplete="tel">
-          </label>
-          <label>Localidad
-            <select name="localidad" id="localidad" required>
-              <option value="">Selecciona tu localidad</option>
-            </select>
-          </label>
-          <label>Tipo de avería
-            <select name="averia" required>
-              <option value="">Selecciona el problema</option>
-              <option>Fuga de agua</option>
-              <option>Atasco / desatasco</option>
-              <option>Termo o calentador</option>
-              <option>Caldera / calefacción</option>
-              <option>Grifo o cisterna</option>
-              <option>Inundación</option>
-              <option>Otra avería</option>
-            </select>
-          </label>
-          <label>Mensaje (opcional)
-            <textarea name="mensaje" rows="3" placeholder="Cuéntanos brevemente qué ocurre"></textarea>
-          </label>
-          <p class="form-error" id="formError" role="alert"></p>
-          <button type="submit" class="btn btn--wa btn--block">Enviar por WhatsApp</button>
-          <a href="tel:+34600903300" class="quick-form__call">¿Es muy urgente? Llama ya al <strong>600 90 33 00</strong></a>
-        </form>
+        <div class="hero__3d">
+          <canvas id="scene3d" aria-hidden="true"></canvas>
+          <div class="float-card float-card--a">
+            <svg class="ico"><use href="#i-clock"/></svg>
+            <div><strong>Respuesta inmediata</strong><span>Urgencias 24/7</span></div>
+          </div>
+          <div class="float-card float-card--b">
+            <svg class="ico"><use href="#i-shield"/></svg>
+            <div><strong>100% garantizado</strong><span>Todas las reparaciones</span></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- FRANJA DE CONFIANZA -->
-    <section class="strip">
-      <div class="container strip__inner">
-        <div><strong>24/7</strong><span>Urgencias todos los días</span></div>
-        <div><strong>+30</strong><span>Pueblos atendidos</span></div>
-        <div><strong>100%</strong><span>Trabajos garantizados</span></div>
-        <div><strong>0 €</strong><span>Presupuesto sin compromiso</span></div>
+    <!-- CIFRAS -->
+    <section class="stats">
+      <div class="container stats__inner">
+        <div><strong data-count="24">24</strong><sup>/7</sup><span>Servicio de urgencias</span></div>
+        <div><strong data-count="365">365</strong><span>Días al año</span></div>
+        <div><strong data-count="100">100</strong><sup>%</sup><span>Trabajos garantizados</span></div>
+        <div><strong>0</strong><sup>€</sup><span>Presupuesto sin compromiso</span></div>
       </div>
     </section>
 
@@ -144,143 +156,239 @@
       <div class="container">
         <div class="section__head">
           <span class="eyebrow">Servicios</span>
-          <h2>Todos los servicios de fontanería</h2>
-          <p>Desde una pequeña fuga hasta la reforma completa de tu baño. Si tiene que ver con agua, lo solucionamos.</p>
+          <h2>Soluciones completas de fontanería</h2>
+          <p>De una pequeña fuga a la renovación integral de un baño. Un único profesional, de principio a fin.</p>
         </div>
+
         <div class="services">
-          <article class="service"><div class="service__icon">💧</div><h3>Reparación de fugas de agua</h3><p>Localizamos y reparamos fugas en tuberías, bajantes y conexiones.</p></article>
-          <article class="service"><div class="service__icon">🚽</div><h3>Desatascos</h3><p>Tuberías, fregaderos, WC, duchas, bajantes y arquetas. Con máquina profesional.</p></article>
-          <article class="service"><div class="service__icon">🔍</div><h3>Detección de fugas sin obras</h3><p>Encontramos fugas ocultas con equipos de detección, sin romper de más.</p></article>
-          <article class="service"><div class="service__icon">🔥</div><h3>Termos y calentadores</h3><p>Reparación, sustitución e instalación de termos eléctricos y calentadores de gas.</p></article>
-          <article class="service"><div class="service__icon">♨️</div><h3>Calderas</h3><p>Instalación, reparación y cambio de calderas de gas y gasóleo.</p></article>
-          <article class="service"><div class="service__icon">🚰</div><h3>Grifería y sanitarios</h3><p>Grifos, cisternas, inodoros, lavabos, bidés y fregaderos.</p></article>
-          <article class="service"><div class="service__icon">🚿</div><h3>Platos de ducha y mamparas</h3><p>Cambiamos tu bañera por un plato de ducha e instalamos mamparas.</p></article>
-          <article class="service"><div class="service__icon">🛁</div><h3>Reformas de baños y cocinas</h3><p>Renovamos toda la instalación de fontanería de baños y cocinas.</p></article>
-          <article class="service"><div class="service__icon">🔧</div><h3>Instalación de tuberías</h3><p>Instalación y sustitución de tuberías de cobre, PEX, multicapa y PVC.</p></article>
-          <article class="service"><div class="service__icon">🏢</div><h3>Montantes y acometidas</h3><p>Montantes de comunidades, acometidas y contadores de agua.</p></article>
-          <article class="service"><div class="service__icon">🧂</div><h3>Descalcificadores y filtros</h3><p>Instalación y mantenimiento de descalcificadores y ósmosis.</p></article>
-          <article class="service"><div class="service__icon">🌡️</div><h3>Calefacción y radiadores</h3><p>Purgado, reparación e instalación de radiadores y suelo radiante.</p></article>
-          <article class="service"><div class="service__icon">⚙️</div><h3>Bombas y grupos de presión</h3><p>Bombas de agua, grupos de presión y aljibes para casas y pozos.</p></article>
-          <article class="service"><div class="service__icon">🕳️</div><h3>Saneamiento y arquetas</h3><p>Arquetas, alcantarillado, fosas y redes de saneamiento.</p></article>
-          <article class="service"><div class="service__icon">🧱</div><h3>Humedades y filtraciones</h3><p>Reparamos el origen de humedades causadas por filtraciones de agua.</p></article>
-          <article class="service service--urgent"><div class="service__icon">🚨</div><h3>Urgencias e inundaciones</h3><p>¿Se te inunda la casa? Llámanos y cortamos el problema al momento.</p><a href="tel:+34600903300">Llamar ahora →</a></article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/fugas.jpg" alt="Grifo con fuga de agua" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">01</span><h3>Reparación de fugas</h3><p>Localizamos y reparamos fugas en tuberías, bajantes y conexiones.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/desatascos.jpg" alt="Tuberías de PVC para saneamiento" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">02</span><h3>Desatascos</h3><p>Fregaderos, WC, duchas, bajantes y arquetas con maquinaria profesional.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/termos.jpg" alt="Depósito de agua caliente con tuberías" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">03</span><h3>Termos y calentadores</h3><p>Reparación, sustitución e instalación de termos eléctricos y de gas.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/calderas.jpg" alt="Instalación de cobre con válvulas de calefacción" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">04</span><h3>Calderas</h3><p>Instalación, reparación y cambio de calderas de gas y gasóleo.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/griferia.jpg" alt="Grifería de acero sobre fregadero" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">05</span><h3>Grifería y sanitarios</h3><p>Grifos, cisternas, inodoros, lavabos y fregaderos.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/ducha.jpg" alt="Rociador de ducha cromado" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">06</span><h3>Platos de ducha y mamparas</h3><p>Cambio de bañera por plato de ducha e instalación de mamparas.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/reformas.jpg" alt="Baño reformado moderno" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">07</span><h3>Reformas de baños y cocinas</h3><p>Renovamos por completo la instalación de agua y desagües.</p></div>
+          </article>
+          <article class="svc tilt">
+            <div class="svc__img"><img src="img/radiadores.jpg" alt="Radiador con válvula termostática" loading="lazy"></div>
+            <div class="svc__body"><span class="svc__num">08</span><h3>Calefacción y radiadores</h3><p>Purgado, reparación e instalación de radiadores y suelo radiante.</p></div>
+          </article>
+        </div>
+
+        <div class="more">
+          <h3 class="more__title">Además</h3>
+          <ul class="more__list">
+            <li><svg class="ico"><use href="#i-search"/></svg><div><strong>Detección de fugas sin obras</strong><span>Equipos de localización, sin romper de más.</span></div></li>
+            <li><svg class="ico"><use href="#i-pipe"/></svg><div><strong>Instalación de tuberías</strong><span>Cobre, PEX, multicapa y PVC.</span></div></li>
+            <li><svg class="ico"><use href="#i-building"/></svg><div><strong>Montantes y acometidas</strong><span>Comunidades, acometidas y contadores.</span></div></li>
+            <li><svg class="ico"><use href="#i-filter"/></svg><div><strong>Descalcificadores y ósmosis</strong><span>Instalación y mantenimiento.</span></div></li>
+            <li><svg class="ico"><use href="#i-pump"/></svg><div><strong>Bombas y grupos de presión</strong><span>Aljibes, pozos y viviendas.</span></div></li>
+            <li><svg class="ico"><use href="#i-drain"/></svg><div><strong>Saneamiento y arquetas</strong><span>Alcantarillado, fosas y redes.</span></div></li>
+            <li><svg class="ico"><use href="#i-wall"/></svg><div><strong>Humedades y filtraciones</strong><span>Reparamos el origen del problema.</span></div></li>
+            <li class="more__urgent"><svg class="ico"><use href="#i-alert"/></svg><div><strong>Urgencias e inundaciones</strong><a href="tel:+34600903300">Llamar ahora <svg class="ico"><use href="#i-arrow"/></svg></a></div></li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- POR QUÉ NOSOTROS -->
-    <section class="section section--alt" id="nosotros">
+    <section class="section section--dark" id="nosotros">
       <div class="container why">
-        <div class="why__img">
-          <img src="img/foto-1.jpg" alt="Fontanero profesional trabajando en una instalación" loading="lazy">
+        <div class="why__media tilt">
+          <img src="img/herramientas.jpg" alt="Herramientas y material de fontanería sobre banco de trabajo" loading="lazy">
+          <div class="why__tag"><strong>Material propio</strong><span>Resolvemos en la primera visita</span></div>
         </div>
         <div class="why__text">
           <span class="eyebrow">Por qué elegirnos</span>
-          <h2>Tu fontanero de confianza en la provincia de Ciudad Real</h2>
-          <p>Jhon Villa es un fontanero profesional que trabaja en Ciudad Real y en todos los pueblos de la provincia. Sin intermediarios: hablas directamente con quien va a arreglar tu avería.</p>
-          <ul class="why__list">
-            <li><span>⏱️</span><div><strong>Urgencias 24/7</strong><p>Día y noche, fines de semana y festivos.</p></div></li>
-            <li><span>💶</span><div><strong>Precios claros</strong><p>Presupuesto antes de empezar, sin sorpresas.</p></div></li>
-            <li><span>🛡️</span><div><strong>Trabajo garantizado</strong><p>Todas las reparaciones tienen garantía.</p></div></li>
-            <li><span>🧰</span><div><strong>Experiencia y material propio</strong><p>Resolvemos la mayoría de averías en la primera visita.</p></div></li>
+          <h2>Trato directo con el profesional que hace el trabajo</h2>
+          <p>Sin intermediarios ni centralitas. Hablas con Jhon Villa, que valora la avería, te da un precio cerrado y la resuelve.</p>
+          <ul class="features">
+            <li><span class="features__ico"><svg class="ico"><use href="#i-clock"/></svg></span><div><strong>Urgencias 24/7</strong><p>Día y noche, fines de semana y festivos.</p></div></li>
+            <li><span class="features__ico"><svg class="ico"><use href="#i-euro"/></svg></span><div><strong>Precios transparentes</strong><p>Presupuesto antes de empezar, sin sorpresas.</p></div></li>
+            <li><span class="features__ico"><svg class="ico"><use href="#i-shield"/></svg></span><div><strong>Trabajo garantizado</strong><p>Garantía en todas las reparaciones.</p></div></li>
+            <li><span class="features__ico"><svg class="ico"><use href="#i-tool"/></svg></span><div><strong>Equipo profesional</strong><p>Maquinaria y recambios en el vehículo.</p></div></li>
           </ul>
-          <a href="tel:+34600903300" class="btn btn--red">Llamar al 600 90 33 00</a>
         </div>
       </div>
     </section>
 
-    <!-- GALERÍA -->
-    <section class="section" id="galeria">
+    <!-- TRABAJOS -->
+    <section class="section" id="trabajos">
       <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">Trabajos</span>
-          <h2>Fontanería profesional</h2>
+        <div class="section__head section__head--row">
+          <div>
+            <span class="eyebrow">Trabajos</span>
+            <h2>Acabados limpios, instalaciones duraderas</h2>
+          </div>
+          <a href="#contacto" class="link-arrow">Pide tu presupuesto <svg class="ico"><use href="#i-arrow"/></svg></a>
         </div>
         <div class="gallery">
-          <img src="img/foto-2.jpg" alt="Reparación de tuberías bajo el fregadero" loading="lazy">
-          <img src="img/foto-6.jpg" alt="Instalación de fontanería" loading="lazy">
-          <img src="img/foto-3.jpg" alt="Fontanero con herramientas" loading="lazy">
-          <img src="img/foto-7.jpg" alt="Reparación de grifería" loading="lazy">
-          <img src="img/foto-4.jpg" alt="Revisión de instalación de agua" loading="lazy">
-          <img src="img/foto-8.jpg" alt="Tuberías y conexiones de agua" loading="lazy">
+          <figure class="tilt g1"><img src="img/trabajo-1.jpg" alt="Grifería termostática de bañera" loading="lazy"><figcaption>Grifería de bañera</figcaption></figure>
+          <figure class="tilt g2"><img src="img/trabajo-2.jpg" alt="Baño con mampara de cristal" loading="lazy"><figcaption>Mamparas</figcaption></figure>
+          <figure class="tilt g3"><img src="img/trabajo-3.jpg" alt="Válvula termostática de radiador" loading="lazy"><figcaption>Calefacción</figcaption></figure>
+          <figure class="tilt g4"><img src="img/trabajo-4.jpg" alt="Tuberías y codos de conexión" loading="lazy"><figcaption>Tuberías</figcaption></figure>
+          <figure class="tilt g5"><img src="img/trabajo-5.jpg" alt="Llaves de fontanería" loading="lazy"><figcaption>Reparaciones</figcaption></figure>
+          <figure class="tilt g6"><img src="img/trabajo-6.jpg" alt="Rociador de ducha con agua" loading="lazy"><figcaption>Duchas</figcaption></figure>
         </div>
-      </div>
-    </section>
-
-    <!-- ZONAS -->
-    <section class="section section--dark" id="zonas">
-      <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">Zonas de servicio</span>
-          <h2>Castilla-La Mancha: Ciudad Real y todos sus pueblos</h2>
-          <p>Trabajamos en Ciudad Real capital y en toda la provincia. Si tu pueblo no aparece en la lista, llámanos: también vamos.</p>
-        </div>
-        <ul class="towns" id="towns"></ul>
-        <p class="towns__note">…y <strong>todos los pueblos de la provincia de Ciudad Real</strong>.</p>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="section" id="faq">
-      <div class="container container--narrow">
-        <div class="section__head">
+    <section class="section section--alt" id="faq">
+      <div class="container faq">
+        <div class="section__head section__head--left">
           <span class="eyebrow">Preguntas frecuentes</span>
           <h2>Resolvemos tus dudas</h2>
+          <p>¿No encuentras la respuesta? Llámanos al <a href="tel:+34600903300">600 90 33 00</a>.</p>
         </div>
-        <details><summary>¿Atendéis urgencias por la noche y en festivos?</summary><p>Sí. Tenemos servicio de urgencias 24 horas, los 365 días del año. Llama al 600 90 33 00.</p></details>
-        <details><summary>¿Cuánto tardáis en llegar?</summary><p>Depende de la localidad, pero en urgencias salimos lo antes posible y te damos una hora aproximada al llamar.</p></details>
-        <details><summary>¿El presupuesto tiene coste?</summary><p>No. El presupuesto es sin compromiso y te lo damos antes de empezar cualquier trabajo.</p></details>
-        <details><summary>¿Trabajáis en mi pueblo?</summary><p>Trabajamos en Ciudad Real capital y en todos los pueblos de la provincia, dentro de Castilla-La Mancha.</p></details>
-        <details><summary>¿Qué hago mientras llega el fontanero si tengo una fuga?</summary><p>Cierra la llave de paso general del agua y, si el agua está cerca de enchufes, desconecta la luz. Después llámanos.</p></details>
+        <div class="faq__list">
+          <details><summary>¿Atendéis urgencias por la noche y en festivos?</summary><p>Sí. El servicio de urgencias funciona 24 horas, los 365 días del año.</p></details>
+          <details><summary>¿Cuánto tardáis en llegar?</summary><p>Depende de la ubicación. En urgencias salimos lo antes posible y te damos una hora aproximada al llamar.</p></details>
+          <details><summary>¿El presupuesto tiene coste?</summary><p>No. El presupuesto es gratuito, sin compromiso y te lo damos antes de empezar cualquier trabajo.</p></details>
+          <details><summary>¿Dónde trabajáis?</summary><p>En Ciudad Real capital y en toda la provincia.</p></details>
+          <details><summary>¿Qué hago mientras llega el fontanero si tengo una fuga?</summary><p>Cierra la llave de paso general del agua y, si el agua está cerca de enchufes, desconecta la luz. Después llámanos.</p></details>
+        </div>
       </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="cta">
-      <div class="container cta__inner">
-        <div>
-          <h2>¿Tienes una avería ahora mismo?</h2>
-          <p>No esperes a que vaya a más. Llámanos y lo solucionamos hoy.</p>
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+      <div class="container contact__inner">
+        <div class="contact__info">
+          <span class="eyebrow">Contacto</span>
+          <h2>Cuéntanos qué ocurre y te respondemos al momento</h2>
+          <p>Completa el formulario y recibirás respuesta por WhatsApp. Para averías graves, llama directamente.</p>
+          <a href="tel:+34600903300" class="contact__card">
+            <span class="contact__ico"><svg class="ico"><use href="#i-phone"/></svg></span>
+            <span><small>Urgencias 24 h</small><strong>600 90 33 00</strong></span>
+            <svg class="ico contact__go"><use href="#i-arrow"/></svg>
+          </a>
+          <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20necesito%20un%20fontanero" target="_blank" rel="noopener" class="contact__card">
+            <span class="contact__ico contact__ico--wa"><svg class="ico"><use href="#i-wa"/></svg></span>
+            <span><small>WhatsApp</small><strong>Escríbenos</strong></span>
+            <svg class="ico contact__go"><use href="#i-arrow"/></svg>
+          </a>
+          <ul class="contact__meta">
+            <li><svg class="ico"><use href="#i-clock"/></svg> Abierto 24 horas, todos los días</li>
+            <li><svg class="ico"><use href="#i-pin"/></svg> Ciudad Real y provincia</li>
+          </ul>
         </div>
-        <div class="cta__btns">
-          <a href="tel:+34600903300" class="btn btn--white btn--lg">📞 600 90 33 00</a>
-          <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20tengo%20una%20aver%C3%ADa" class="btn btn--wa btn--lg" target="_blank" rel="noopener">WhatsApp</a>
-        </div>
+
+        <form class="form" id="form" novalidate>
+          <div class="form__head">
+            <h3>Solicitud de servicio</h3>
+            <span class="form__time"><span class="pulse"></span> Respuesta en minutos</span>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-nombre">Nombre</label>
+              <div class="field__box"><svg class="ico"><use href="#i-user"/></svg><input id="f-nombre" type="text" name="nombre" required placeholder="Nombre y apellido" autocomplete="name"></div>
+            </div>
+            <div class="field">
+              <label for="f-tel">Teléfono</label>
+              <div class="field__box"><svg class="ico"><use href="#i-phone"/></svg><input id="f-tel" type="tel" name="telefono" required placeholder="600 000 000" autocomplete="tel" inputmode="tel"></div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-dir">Localidad o dirección</label>
+            <div class="field__box"><svg class="ico"><use href="#i-pin"/></svg><input id="f-dir" type="text" name="localidad" required placeholder="Calle, número y localidad" autocomplete="street-address"></div>
+          </div>
+
+          <fieldset class="field">
+            <legend>Tipo de servicio</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="averia" value="Fuga de agua" required><span>Fuga de agua</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Desatasco"><span>Desatasco</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Termo / calentador"><span>Termo / calentador</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Caldera / calefacción"><span>Caldera / calefacción</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Grifería / sanitarios"><span>Grifería / sanitarios</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Reforma / instalación"><span>Reforma / instalación</span></label>
+              <label class="chip"><input type="radio" name="averia" value="Otro"><span>Otro</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Prioridad</legend>
+            <div class="seg">
+              <label><input type="radio" name="prioridad" value="Urgente (hoy)" checked><span>Urgente</span></label>
+              <label><input type="radio" name="prioridad" value="Esta semana"><span>Esta semana</span></label>
+              <label><input type="radio" name="prioridad" value="Solo presupuesto"><span>Presupuesto</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="f-msg">Descripción <span class="opt">Opcional</span></label>
+            <div class="field__box field__box--area"><svg class="ico"><use href="#i-msg"/></svg><textarea id="f-msg" name="mensaje" rows="3" placeholder="Describe brevemente la avería"></textarea></div>
+          </div>
+
+          <label class="consent"><input type="checkbox" name="consent" required><span>Acepto que se usen mis datos únicamente para atender esta solicitud.</span></label>
+
+          <p class="form__error" id="formError" role="alert"></p>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">
+            Enviar solicitud <svg class="ico"><use href="#i-arrow"/></svg>
+          </button>
+          <p class="form__note"><svg class="ico"><use href="#i-lock"/></svg> Tus datos se envían solo a Jhon Villa vía WhatsApp.</p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer__inner">
-      <div>
-        <a href="#inicio" class="logo logo--light"><img src="img/favicon.svg" alt="" width="32" height="32"><span>Fontanero <strong>Jhon Villa</strong></span></a>
-        <p>Fontanería y urgencias 24h en Ciudad Real y provincia. Resolvemos cualquier avería.</p>
+      <div class="footer__brand">
+        <a href="#inicio" class="logo"><img src="img/favicon.svg" alt="" width="32" height="32"><span>Jhon Villa <em>Fontanería</em></span></a>
+        <p>Fontanería y urgencias 24 h en Ciudad Real y provincia.</p>
       </div>
-      <div>
-        <h4>Contacto</h4>
-        <p><a href="tel:+34600903300">📞 600 90 33 00</a></p>
-        <p><a href="https://wa.me/34600903300" target="_blank" rel="noopener">💬 WhatsApp</a></p>
-        <p>🕒 Abierto 24 horas</p>
-      </div>
-      <div>
-        <h4>Zonas</h4>
-        <p>Ciudad Real · Puertollano · Tomelloso · Valdepeñas · Alcázar de San Juan · Manzanares · Daimiel y toda la provincia</p>
+      <nav class="footer__nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Por qué nosotros</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="footer__contact">
+        <a href="tel:+34600903300"><svg class="ico"><use href="#i-phone"/></svg> 600 90 33 00</a>
+        <a href="https://wa.me/34600903300" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg> WhatsApp</a>
+        <span><svg class="ico"><use href="#i-clock"/></svg> Abierto 24 horas</span>
       </div>
     </div>
-    <div class="footer__bottom container">
-      <p>© 2026 Fontanero Jhon Villa · Castilla-La Mancha, España</p>
+    <div class="container footer__bottom">
+      <p>© 2026 Fontanero Jhon Villa · Ciudad Real, Castilla-La Mancha</p>
     </div>
   </footer>
 
-  <!-- BOTONES FLOTANTES -->
+  <!-- ACCESOS RÁPIDOS -->
   <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20necesito%20un%20fontanero" class="wa-float" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
-    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.5 6.5 0 0 0 1.3 3.4 14.8 14.8 0 0 0 5.7 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.3z"/></svg>
+    <svg class="ico"><use href="#i-wa"/></svg>
   </a>
   <div class="mobile-bar">
-    <a href="tel:+34600903300" class="mobile-bar__call">📞 Llamar ahora</a>
-    <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20necesito%20un%20fontanero" class="mobile-bar__wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="tel:+34600903300" class="mobile-bar__call"><svg class="ico"><use href="#i-phone"/></svg> Llamar</a>
+    <a href="https://wa.me/34600903300?text=Hola%20Jhon%2C%20necesito%20un%20fontanero" class="mobile-bar__wa" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg> WhatsApp</a>
   </div>
 
   <script src="js/main.js"></script>
+  <script type="module" src="js/scene.js"></script>
 </body>
 </html>
