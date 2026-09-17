@@ -208,7 +208,11 @@ details p { padding-bottom: 18px; color: var(--muted); }
 
 @media (max-width: 680px) {
   .header__call span { display: none; }
-  .header__call { padding: 10px 12px; }
+  .header__call { padding: 10px 12px; flex-shrink: 0; }
+  .header__inner { gap: 12px; }
+  .logo { font-size: 1.05rem; gap: 8px; min-width: 0; }
+  .logo img { width: 30px; height: 30px; }
+  .burger { flex-shrink: 0; }
   .hero { padding: 100px 0 50px; }
   .hero__cta .btn { width: 100%; }
   .strip__inner { grid-template-columns: repeat(2, 1fr); }
@@ -225,6 +229,10 @@ details p { padding-bottom: 18px; color: var(--muted); }
   .mobile-bar a { padding: 15px; text-align: center; font-weight: 700; color: #fff; }
   .mobile-bar__call { background: var(--red); }
   .mobile-bar__wa { background: var(--wa); }
+}
+
+@media (max-width: 400px) {
+  .header .logo span { display: flex; flex-direction: column; line-height: 1.1; font-size: .95rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
